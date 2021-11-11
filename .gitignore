@@ -1,1 +1,5 @@
 public
+# 忽略vim临时文件
+*~
+*.swp
+*.swo
