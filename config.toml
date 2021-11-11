@@ -1,0 +1,27 @@
+# settings
+baseURL = "https://Lorem-Moon.github.io/gallery"
+languageCode = "en-us"
+title = ""
+theme = "autophugo"
+[Author]
+  name = "Lorem Moon"
+  email = "latinxiaomao@gmail.com"
+[params]
+  # Meta
+  description = "Photo Gallery Hugo"
+  keywords = "hugo Photo Gallery"
+  favicon = "favicon.ico"
+  column_count = 4
+  # thumbnail encoding quality percentage after resizing (default 50%)
+  thumb_quality = 50
+  full_quality = 50
+  # thumbnail width after resizing (default 480 pixels)
+  thumb_width = 500
+  full_width = 960
+  # 如果为真，文件名的人性化形式将用作照片标题（默认为假）
+  filename_as_phototitle = true
+  # 如果为 true，图像有一个下载按钮（默认为 true）
+  images_downloadable = false
+  # Copyright
+    [params.footer.copyright]
+    name = "Lorem Moon"
